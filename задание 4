@@ -1,0 +1,3 @@
+def function(s):
+    return ''.join(list(filter(lambda x: x.isupper(), s)))
+print(function('How are you? Eh, ok. Low or Lower? Ohhh.'))
