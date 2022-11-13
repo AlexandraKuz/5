@@ -1,0 +1,9 @@
+number = 3
+if number % 2 == 0 and number == 5:
+    print ("хорошо")
+elif number % 2 == 0 and number == 6:
+        print ("так себе")
+elif number:
+    print ("плохо")
+elif number % 2 == 0 and number > 20:
+    print ("отлично")
