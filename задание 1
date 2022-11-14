@@ -1,10 +1,9 @@
-input('numbers: '):
+numbers = int(input('numbers: '))
 if numbers % 3 == 0 and numbers % 5 == 0:
-    print('Fizz Buzz')
- elif numbers % 3 == 0:
-    print('Fizz')
- elif numbers % 5 == 0:
-    print('Buzz')
- else:
-     print(numbers)
-     #программа не хочет работать, не понимаю что именно дает ошибку 
+ print('Fizz Buzz')
+elif numbers % 3 == 0:
+ print('Fizz')
+elif numbers % 5 == 0:
+ print('Buzz')
+else:
+ print(numbers)
