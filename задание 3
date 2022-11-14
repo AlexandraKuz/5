@@ -1,7 +1,2 @@
-import itertools
-def generate():
-    for i in itertools.count(1):
-        yield from [str(i)]
-n = int(input('число: '))
-print(*itertools.islice(generate(), n))
-#через оператор for i in решение выдавало ошибку, поэтому добавила к заданию итератор
+for i in range(1, 9+1):
+ print (i)
