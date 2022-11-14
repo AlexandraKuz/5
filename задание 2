@@ -1,9 +1,9 @@
-number = 3
-if number % 2 == 0 and number == 5:
-    print ("хорошо")
-elif number % 2 == 0 and number == 6:
-        print ("так себе")
-elif number:
-    print ("плохо")
-elif number % 2 == 0 and number > 20:
-    print ("отлично")
+number = 4
+if number % 2 != 0:
+ print ("плохо")
+elif number <5:
+ print ("неплохо")
+elif number < 20:
+ print ("так себе")
+elif number > 20:
+ print ("отлично")
