@@ -1,3 +1,14 @@
-def function(s):
-    return ''.join(list(filter(lambda x: x.isupper(), s)))
-print(function('How are you? Eh, ok. Low or Lower? Ohhh.'))
+#1 вариант, измененный. Работает.
+text = 'How are you? Eh, ok. Low or Lower? Ohhh.'
+str_text = str(text)
+def function(str_text):
+    return list(filter(lambda x: x.isupper(), str_text))
+print(function(text))
+# 2 вариант. Не работает.
+text = 'How are you? Eh, ok. Low or Lower? Ohhh.'
+str_text = str(text)
+title = map(int,str(text),'[A-Z]')
+for str_text in text:
+print(list(str_text))
+#Хотела сделать так, чтобы заглавные буквы из исходного текста брались в порядке по алфавиту, чтобы получить необходимое слово. Либо я запуталась в командах, 
+#либо чего-то не хватает
